@@ -8,7 +8,9 @@ Este archivo contiene algunos conceptos básicos de Docker.
 - 05 - Probar los ejemplos propuestos.
 - 05 - Ver los comando más utilizados.
 
-## Instalar Docker en windows
+## Instalar Docker
+
+### Instalar Docker en windows
 https://docs.docker.com/docker-for-windows/install/
 
 [¿Qué debo saber antes de intalar Docker?](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install)
@@ -17,7 +19,7 @@ https://docs.docker.com/docker-for-windows/install/
 - 02 - Siga el asistente de intalación
 - 03 - Haga clic en Finalizar en el cuadro de diálogo de instalación completa para iniciar Docker.
 
-## instalar Docker en linux
+### instalar Docker en linux
 https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script
 
 - 01 - Descargar el script [get-docker.sh](https://get.docker.com/)
