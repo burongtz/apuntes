@@ -7,3 +7,12 @@ Este archivo contiene algunos conceptos básicos de Docker.
 - 04 - Instalar Docker Compose.
 - 05 - Probar los ejemplos propuestos.
 - 05 - Ver los comando más utilizados.
+
+## Instalar Docker en windows
+https://docs.docker.com/docker-for-windows/install/
+
+[¿Qué debo saber antes de intalar Docker?](https://docs.docker.com/docker-for-windows/install/#what-to-know-before-you-install)
+
+- 01 - Descargar el intalador desde [download.docker.com](https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe)
+- 02 - Siga el asistente de intalación
+- 03 - Haga clic en Finalizar en el cuadro de diálogo de instalación completa para iniciar Docker.
