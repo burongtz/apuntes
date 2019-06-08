@@ -1,8 +1,8 @@
 # Conocimientos Básicos de Docker
 
 ## Índice de contenido.
-* 1\. Leer diapositivas
-* 2\. Instalar Docker
+* 1\. [Leer diapositivas](./pages/1._leer_diapositivas.md)
+* 2\. [Instalar Docker](./pages/2._instalar_docker.md)
     * 2.1. Instalar Docker en Windows
     * 2.2. Instalar Docker en Ubuntu
 * 3\. Ejemplos con Docker.
