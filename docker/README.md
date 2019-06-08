@@ -3,7 +3,7 @@
 - 1 - Leer las diapositivas [Docker conocimientos básicos.pptx](https://github.com/burongtz/apuntes/raw/master/docker/Docker%20conocimientos%20b%C3%A1sicos.pptx). \
 Este archivo contiene algunos conceptos básicos de Docker.
 - 2 - Instalar Docker.
-- 3 - Probar los ejemplos propuestos.
+- 3 - Ejemplos con docker.
 - 4 - Instalar Docker Compose.
 - 5 - Probar los ejemplos propuestos.
 - 6 - Ver los comando más utilizados.
