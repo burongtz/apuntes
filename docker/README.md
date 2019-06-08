@@ -1,11 +1,14 @@
 # Conocimientos Básicos de Docker
 ## Pasos sugeridos.
-- 1 - Leer las diapositivas [Docker conocimientos básicos.pptx](https://github.com/burongtz/apuntes/raw/master/docker/Docker%20conocimientos%20b%C3%A1sicos.pptx). \
-Este archivo contiene algunos conceptos básicos de Docker.
+- 1 - Leer diapositivas
 - 2 - Instalar Docker.
-    - 2.1 - Instalar Docker en windows
+    - 2.1 - Instalar Docker en Windows
     - 2.2 - Instalar Docker en Ubuntu
-- 3 - Ejemplos con docker.
+- 3 - Ejemplos con Docker.
+
+## 1 - Leer Diapositivas
+Este archivo contiene algunos conceptos básicos de Docker. \
+[Docker conocimientos básicos.pptx](https://github.com/burongtz/apuntes/raw/master/docker/Docker%20conocimientos%20b%C3%A1sicos.pptx).
 
 ## 2 - Instalar Docker
 
