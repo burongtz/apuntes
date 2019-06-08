@@ -1,12 +1,12 @@
 # Conocimientos Básicos de Docker
 ## Pasos sugeridos.
-- 01 - Leer las diapositivas [Docker conocimientos básicos.pptx](https://github.com/burongtz/apuntes/raw/master/docker/Docker%20conocimientos%20b%C3%A1sicos.pptx). \
+- 1 - Leer las diapositivas [Docker conocimientos básicos.pptx](https://github.com/burongtz/apuntes/raw/master/docker/Docker%20conocimientos%20b%C3%A1sicos.pptx). \
 Este archivo contiene algunos conceptos básicos de Docker.
-- 02 - Instalar Docker.
-- 03 - Probar los ejemplos propuestos.
-- 04 - Instalar Docker Compose.
-- 05 - Probar los ejemplos propuestos.
-- 05 - Ver los comando más utilizados.
+- 2 - Instalar Docker.
+- 3 - Probar los ejemplos propuestos.
+- 4 - Instalar Docker Compose.
+- 5 - Probar los ejemplos propuestos.
+- 6 - Ver los comando más utilizados.
 
 ## Instalar Docker
 
@@ -23,7 +23,7 @@ https://docs.docker.com/docker-for-windows/install/
 https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script
 
 - 01 - Descargar el script [get-docker.sh](https://get.docker.com/)
-- 02 - Ejecutar el script 
+- 02 - Ejecutar el script
 ```bash
 $ chmod +x get-docker.sh
 $ ./get-docker.sh
