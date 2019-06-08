@@ -21,7 +21,7 @@ https://docs.docker.com/docker-for-windows/install/
 - 2 - Siga el asistente de intalación
 - 3 - Haga clic en Finalizar en el cuadro de diálogo de instalación completa para iniciar Docker.
 
-### 2. 2 - Instalar Docker en linux
+### 2.2 - Instalar Docker en linux
 https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script
 
 1 - Descargar el script [get-docker.sh](https://get.docker.com/) \
