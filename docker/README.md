@@ -24,8 +24,8 @@ https://docs.docker.com/docker-for-windows/install/
 ### 2. 2 - Instalar Docker en linux
 https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-convenience-script
 
-- 1 - Descargar el script [get-docker.sh](https://get.docker.com/)
-- 2 - Ejecutar el script
+1 - Descargar el script [get-docker.sh](https://get.docker.com/) \
+2 - Ejecutar el script
 ```bash
 $ chmod +x get-docker.sh
 $ ./get-docker.sh
