@@ -11,10 +11,6 @@
 * 4\. Instalar Docker Compose
 * 5\. Ejemplos con Docker Compose
 
-## 1. Leer Diapositivas
-Este archivo contiene algunos conceptos básicos de Docker. \
-[Docker conocimientos básicos.pptx](https://github.com/burongtz/apuntes/raw/master/docker/Docker%20conocimientos%20b%C3%A1sicos.pptx).
-
 ## 2. Instalar Docker
 
 ### 2.1 Instalar Docker en windows
