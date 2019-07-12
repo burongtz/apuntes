@@ -36,6 +36,11 @@ No olvidar, agregar archivo index.html o mostrará error 403
 http://localhost:8081
 
 ## 4. Dockerfile
+```Dockerfile
+FROM nginx:alpine
+
+RUN echo "Hola desde Dockerfile !!!!!!!!!!!"
+```
 
 ## 5. Instalar Docker Compose
 
