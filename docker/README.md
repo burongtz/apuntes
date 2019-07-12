@@ -27,5 +27,13 @@ sudo usermod -aG docker "$USER"
 ## 3. Ejemplos con Docker.
 ## 4. Docker en CLI
 ## 5. Dockerfile
-## 6. [Instalar Docker Compose](./pages/4._instalar_docker_compose.md#instalar-docker-compose)
+## 6. Instalar Docker Compose
+```bash
+sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
+&& sudo chmod +x /usr/local/bin/docker-compose
+```
+### Probar instalación
+```bash
+docker-compose --version
+```
 ## 7. Ejemplos con Docker Compose
