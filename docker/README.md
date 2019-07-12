@@ -1,7 +1,9 @@
 # Conocimientos Básicos de Docker
 
 ## 1. [Introducción](./pages/1._leer_diapositivas.md)
+
 ## 2. Instalar Docker (Ubuntu)
+
 ### Configurar el repositorio
 ```bash
 sudo apt-get update \
@@ -15,6 +17,7 @@ sudo apt-get update \
 sudo apt-get update \
 && sudo apt-get install -y docker-ce docker-ce-cli containerd.io
 ```
+
 ### Probar que se instaló correctamente
 ```bash
 sudo docker run hello-world
@@ -24,17 +27,22 @@ sudo docker run hello-world
 ```bash
 sudo usermod -aG docker "$USER"
 ```
-## 3. Ejemplos con Docker.
-## 4. Docker en CLI
-## 5. Dockerfile
-## 6. Instalar Docker Compose
+
+## 3. Docker en CLI
+
+## 4. Dockerfile
+
+## 5. Instalar Docker Compose
+
 ## Instalar
 ```bash
 sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose \
 && sudo chmod +x /usr/local/bin/docker-compose
 ```
+
 ### Probar instalación
 ```bash
 docker-compose --version
 ```
-## 7. Ejemplos con Docker Compose
+
+## 6. Ejemplos con Docker Compose
