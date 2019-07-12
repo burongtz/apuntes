@@ -29,6 +29,11 @@ sudo usermod -aG docker "$USER"
 ```
 
 ## 3. Docker en CLI
+```bash
+docker run -dit --name TEST-nginx -p 8081:80 -v $HOME:/usr/share/nginx/html:ro -d nginx:alpine
+```
+No olvidar, agregar archivo index.html o mostrará error 403
+http://localhost:8081
 
 ## 4. Dockerfile
 
