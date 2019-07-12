@@ -64,4 +64,36 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.24.0/docker-
 docker-compose --version
 ```
 
-## 6. Ejemplos con Docker Compose
+## 6. Ejemplo con Docker Compose
+```yml
+version: "3"
+
+services:
+  app:
+    image: nginx:alpine
+    # ports:
+    #  - "8080:80"
+    command: [nginx-debug, '-g', 'daemon off;']
+    networks:
+      app_network_public:
+        ipv4_address: 172.16.238.101
+    labels:
+      - "traefik.frontend.rule=Host:domaintest.local"
+      - "traefik.port=80"
+
+  reverse-proxy:
+    image: traefik
+    command: --api --docker
+    ports:
+      - 80:80
+      - 8080:8080
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+networks:
+  app_network_public:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.16.238.0/24"
+```
