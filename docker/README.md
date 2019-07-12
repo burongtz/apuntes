@@ -42,6 +42,15 @@ FROM nginx:alpine
 RUN echo "Hola desde Dockerfile !!!!!!!!!!!"
 ```
 
+```bash
+# Crear imagen
+$ docker build -t "ventaneando_image" .
+# Iniciar contenedor
+$ docker run -dit --name ventaneando_container -p 8081:80 -v $HOME:/usr/share/nginx/html:ro -d ventaneando_image
+# Conectar a contenedor
+$ docker exec -it El_hash_id_del_contenedor sh
+```
+
 ## 5. Instalar Docker Compose
 
 ## Instalar
