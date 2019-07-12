@@ -24,8 +24,8 @@ sudo docker run hello-world
 ```bash
 sudo usermod -aG docker "$USER"
 ```
-* 3\. Ejemplos con Docker.
-    * 3.1. Docker en CLI
-    * 3.2. Dockerfile
+## 3. Ejemplos con Docker.
+### 3.1. Docker en CLI
+### 3.2. Dockerfile
 * 4\. [Instalar Docker Compose](./pages/4._instalar_docker_compose.md#instalar-docker-compose)
 * 5\. Ejemplos con Docker Compose
