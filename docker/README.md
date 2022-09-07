@@ -25,7 +25,10 @@ sudo docker run hello-world
 
 ### Agregar el usuario al grupo Docker
 ```bash
-sudo usermod -aG docker $USER
+// sudo groupadd docker
+$ sudo usermod -aG docker $USER
+// Activar los cambios en el grupo
+$ newgrp docker 
 ```
 
 ## 3. Docker en CLI
