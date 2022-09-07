@@ -25,9 +25,11 @@ sudo docker run hello-world
 
 ### Agregar el usuario al grupo Docker
 ```bash
-// sudo groupadd docker
+# Crear grupo
+sudo groupadd docker
+# Agregar usuario al grupo
 $ sudo usermod -aG docker $USER
-// Activar los cambios en el grupo
+# Activar los cambios en el grupo
 $ newgrp docker 
 ```
 
